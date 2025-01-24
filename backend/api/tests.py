@@ -1,12 +1,7 @@
-# Стандартные библиотеки
 from http import HTTPStatus
 
-# Сторонние библиотеки
-from django.test import Client, TestCase
-
-# Локальные импорты
 from api import models
-
+from django.test import Client, TestCase
 
 class TaskiAPITestCase(TestCase):
     def setUp(self):
