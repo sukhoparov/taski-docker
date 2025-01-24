@@ -1,7 +1,10 @@
+# Стандартные библиотеки
 from http import HTTPStatus
 
+# Сторонние библиотеки
 from django.test import Client, TestCase
 
+# Локальные импорты
 from api import models
 
 
